@@ -1,0 +1,27 @@
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); /* blue-500 */
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(59, 130, 246, 0);
+  }
+}
+
+#chat-bubble-button {
+  animation: pulse 2.5s infinite;
+  transition: transform 0.2s ease-in-out;
+}
+
+#chat-bubble-button:hover {
+    transform: scale(1.1);
+}
+
+#chat-panel-container {
+  transform: translateY(110%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#chat-panel-container.is-open {
+  transform: translateY(0);
+}

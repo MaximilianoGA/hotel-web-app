@@ -1,0 +1,8 @@
+{
+  "name": "Serenity Sands Hotel Reservation Agent",
+  "description": "An AI assistant to help users book their stay at the Serenity Sands Hotel.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
