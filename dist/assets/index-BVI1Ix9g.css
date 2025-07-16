@@ -1,0 +1,1 @@
+@keyframes pulse{0%,to{box-shadow:0 0 #3b82f6b3}70%{box-shadow:0 0 0 20px #3b82f600}}#chat-bubble-button{animation:pulse 2.5s infinite;transition:transform .2s ease-in-out}#chat-bubble-button:hover{transform:scale(1.1)}#chat-panel-container{transform:translateY(110%);transition:transform .4s cubic-bezier(.4,0,.2,1)}#chat-panel-container.is-open{transform:translateY(0)}
